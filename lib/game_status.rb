@@ -3,7 +3,17 @@ def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
 end
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
+nested_board = [
+  ["X", "X", "X", " ", " ", " ", " ", " ", " "]
+  ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
+  [" ", " ", "X", " ", "X", " ", "X", " ", " "]
+  [, " ", " ", " ""X", "X", "X", " ", " ", " "]
+  [" ", " ", " ", " ", " ", " ", "X", "X", "X"]  
+  [" ", "X", " ", " ", "X", " ", " ", "X", " "]
+  ["X", " ", " ", "X", " ", " ", "X", " ", " "]
+  [" ", " ", "X", " ", " ", "X", " ", " ", "X"]
+]
+
 WIN_COMBINATIONS = [
   [0,1,2]
   [0,4,8]
@@ -14,4 +24,6 @@ WIN_COMBINATIONS = [
   [0,3,6]
   [2,5,8]
 ]
+
+
 # Define your WIN_COMBINATIONS constant
