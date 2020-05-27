@@ -12,6 +12,6 @@ WIN_COMBINATIONS = [
   [" ", "X", " ", " ", "X", " ", " ", "X", " "]
   ["X", " ", " ", "X", " ", " ", "X", " ", " "]
   [" ", " ", "X", " ", " ", "X", " ", " ", "X"]
-  
+
 ]
 # Define your WIN_COMBINATIONS constant
