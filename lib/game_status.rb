@@ -14,6 +14,7 @@ nested_board = [
   [" ", " ", "X", " ", " ", "X", " ", " ", "X"]
 ]
 
+
 WIN_COMBINATIONS = [
   [0,1,2]
   [0,4,8]
