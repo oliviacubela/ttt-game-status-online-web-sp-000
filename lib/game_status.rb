@@ -3,7 +3,7 @@ def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
 end
 
-nested_board = [
+win_combination = [
   ["X", "X", "X", " ", " ", " ", " ", " ", " "],
   ["X", " ", " ", " ", "X", " ", " ", " ", "X"],
   [" ", " ", "X", " ", "X", " ", "X", " ", " "],
